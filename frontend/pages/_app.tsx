@@ -23,7 +23,7 @@ export default function MyApp(props: AppProps) {
   return (
     <CacheProvider value={cache}>
       <Head>
-        <title>Turtle Control Panel</title>
+        <title>Turtle Control Panel - Reuban Bryenton</title>
         <meta name="viewport" content="initial-scale=1, width=device-width" />
       </Head>
       <ThemeProvider theme={theme}>
