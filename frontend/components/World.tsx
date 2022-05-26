@@ -2,7 +2,7 @@ import { Canvas, MeshProps, extend, useFrame, useThree, ReactThreeFiber, useLoad
 import { useRef, useState, useMemo, useEffect, Suspense, HTMLProps, RefObject, SetStateAction, Dispatch, useContext } from 'react';
 import { Mesh, BoxBufferGeometry, Vector3, Quaternion, Euler, Raycaster, Vector2, Object3D } from 'three';
 import { OrbitControls } from 'three-orbitcontrols-ts';
-// import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
+import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
 import { Turtle, TurtleContext, World } from '../pages';
 import useEventListener from '@use-it/event-listener';
 import Color from 'color';
@@ -53,7 +53,7 @@ function useInterpolate(property: 'position' | 'target', position: [number, numb
 }
 
 function Model({ url, position, rotation, name }: { url: string, name: string, position: [number, number, number], rotation: [number, number, number] }) {
-	const GLTFLoader = require('three/examples/jsm/loaders/GLTFLoader').GLTFLoader;
+	// const GLTFLoader = require('three/examples/jsm/loaders/GLTFLoader').GLTFLoader;
 	const obj = useLoader(GLTFLoader, url) as any;
 	const ref = useInterpolate('position', position, rotation);
 	return (
@@ -72,7 +72,7 @@ function Model({ url, position, rotation, name }: { url: string, name: string, p
 }
 
 function OtherTurtles({ turtles, switchTurtle }: { turtles: Turtle[], switchTurtle: Function }) {
-	const GLTFLoader = require('three/examples/jsm/loaders/GLTFLoader').GLTFLoader;
+	// const GLTFLoader = require('three/examples/jsm/loaders/GLTFLoader').GLTFLoader;
 	const obj = useLoader(GLTFLoader, "/otherturtle.glb") as any;
 
 	return (

@@ -18,18 +18,18 @@
     "babel-preset-env": "^1.7.0",
     "color": "^3.1.3",
     "next": "latest",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-three-fiber": "^5.3.1",
-    "three": "^0.122.0",
-    "three-obj-loader-es6-module": "^1.0.1",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-three-fiber": "latest",
+    "three": "latest",
+    "three-obj-loader-es6-module": "latest",
     "three-orbitcontrols-ts": "git+https://git@github.com/nicolaspanel/three-orbitcontrols-ts.git"
   },
   "devDependencies": {
-    "@types/node": "^12.12.21",
-    "@types/react": "^16.9.16",
-    "@types/react-dom": "^16.9.4",
-    "typescript": "4.0"
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "typescript": "4.3.2"
   },
   "license": "MIT"
 }
