@@ -5,6 +5,7 @@ Tutorial: soon
 # TODO (✓ = Done)
 
 ✓ Import ottomated's repo
+- Make other auto mine functions
 - Make a tutorial
 - Update wiki section in repo
 - Add all repo info
